@@ -7,10 +7,14 @@ body {
 }
 .container {
   align-self: center;
+  max-width: 66%;
 }
 ul {
   color: purple;
 }
 h1 {
   color: green;
+}
+#uxCrash {
+  margin-left: 10%;
 }

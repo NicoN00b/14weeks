@@ -6,32 +6,17 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+Here I am with 15 weeks of part-time intro and nine weeks of full-time Java and Javascript behind me and I am confronted by two feelings.  One: I have learned a lot, every day, and I literally speak new languages.
+Two: There is an overwhelming gap between my knowledge and the knowledge I feel that I must possess to move forward in a career.
 
-## Setup/Installation Requirements
+Today, I spent some time reading through the links and decided to set a goal to finish the UX Crash Course before the beginning of Android.  I read through the first three this morning (screenshots in the IMG folder).
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+I also read on the Pomodoro Method and followed it throughout the day.  I follow a similar pattern already, but to put some intention behind it felt great and the timer really kept me moving forward. I even got a bunch of discrete tasks accomplished around the house in those 5 minutes breaks, because I was forced to spend some time somewhere else.
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+I followed two security courses on Lynda today.  (Capture8.JPG is for the module I completed).  Here, in the security realm, I see the steepest climb ahead of me.  Beyond the specific lessons on using these tools and some syntax.  I need to work on some logic challenges to push ahead.
+
+
 
 ## Known Bugs
 
 The list here is exhaustive.  
-
-## Support and contact details
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
-
-## Technologies Used
-
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
-
-### License
-
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-
-Copyright (c) 2016 **_{List of contributors or company name}_**
