@@ -13,7 +13,7 @@ Today, I spent some time reading through the links and decided to set a goal to 
 
 I also read on the Pomodoro Method and followed it throughout the day.  I follow a similar pattern already, but to put some intention behind it felt great and the timer really kept me moving forward. I even got a bunch of discrete tasks accomplished around the house in those 5 minutes breaks, because I was forced to spend some time somewhere else.
 
-I followed two security courses on Lynda today.  (Capture8.JPG is for the module I completed).  Here, in the security realm, I see the steepest climb ahead of me.  Beyond the specific lessons on using these tools and some syntax.  I need to work on some logic challenges to push ahead.
+I followed two security courses on Lynda today.  (Capture8.JPG is for the module I completed).  Here, in the security realm, I see the steepest climb ahead of me.  Beyond the specific lessons on using these tools and some syntax.  I need to work on some logic challenges to push ahead, I think will start with Coderbyte.
 
 
 

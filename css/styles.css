@@ -16,5 +16,9 @@ h1 {
   color: green;
 }
 #uxCrash {
-  margin-left: 10%;
+  margin-left: 15%;
+}
+footer {
+  align-content: center;
+  font-size: 10px;
 }
