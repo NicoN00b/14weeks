@@ -9,6 +9,18 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
+    <nav id='navbar'>
+      <header>
+        text
+      </header>
+      <a class="nav-link" href="#Confessions_of_A_Kinda_Sorta_Full-Stack_Developer">Confessions of A Kinda Sorta Full-Stack Developer</a>
+      <a class="nav-link" href="#What_do_you_want_to_be_when_you_grow_up">What do you want to be when you grow up</a>
+      <a class="nav-link" href="#The_Path_to_Programming:_User_Stories">The Path to Programming: User Stories</a>
+      <a class="nav-link" href="#These_late_adapters_and_those_shut_out_from_technological_progress_by_an_extreme_lack_of_digital_equity_demonstrated_three_lessons:">These late adapters and those shut out from technological progress by an extreme lack of digital equity demonstrated three lessons:</a>
+      <a class="nav-link" href="#A_Useful_Quote">A Useful Quote</a>
+      <a class="nav-link" href="#Where_Do_We_Find_Ourselves?">Where Do We Find Ourselves?</a>
+
+    </nav>
     <main id="main-doc">
       <section class="main-section" id="Confessions_of_A_Kinda_Sorta_Full-Stack_Developer">
         <header>Confessions of A Kinda Sorta Full-Stack Developer</header>
@@ -33,6 +45,9 @@
           <li>Design is not as intuitive as we might assume.</li>
           <li>Documentation is lacking almost everywhere.</li>
           <li>The need for security is not understood, and consequently, not practiced.</li>
+          <li>And</li>
+          <li>Another</li>
+          #755*
         </ul>
       </section>
       <br>
@@ -56,6 +71,108 @@
         <br>
         <p>It is a pivotal moment. 47% of jobs will disappear in the next 25 years.  Automation will be universal and the only careers that we can count on are those that robots cannot do and those that leverage technical skills to work with the automation.</p>
         <p>As I enter the last phase at Epicodus, my goal is to develop proficiency in these three aforementioned areas daily and look to a career that leverages these new competencies with my established professional credentials.</p>
+        <p>These</p>
+        <p>Are</p>
+        <p>Additional</p>
+        <p>Paragraphs</p>
+          <code>
+            function palindrome(str) {
+              var strReverse;
+              var strOG = str.toLowerCase().replace(/\W|_+/g, '');
+              strReverse = strOG.split('').reverse().join('');
+              if(strReverse === str) {
+                return true;
+              } else {
+                return false;
+              }
+            }
+          </code>
+          <code>
+            function AppComponent() {
+                // currentAnimal: string = 'Elephant in a Box';
+                this.currentTime = new Date();
+                this.month = this.currentTime.getMonth() + 1;
+                this.day = this.currentTime.getDate();
+                this.year = this.currentTime.getFullYear();
+                this.masterAnimalList = [
+                    new animal_model_1.Animal("Elephant", "Mel", 35, "Herbivore", "Savannah Simulacra", "Male", "dreaming about Africa", "flashes and gawking yokels"),
+                    new animal_model_1.Animal("Ocelet", "Isis", 12, "Carnivore", "Plastic Jungle", "Female", "stalking, torturing, feasting", "pretty much everyone and everything"),
+                    new animal_model_1.Animal("Osprey", "Gunner", 5, "Carnivore", "Net Tent", "Male", "Diving for Salmon", "The Net that surrounds him"),
+                ];
+                this.selectedAnimal = null;
+            }
+          </code>
+          <code>
+            timeLeft(birthDate){
+              let secondsAge = this.ageSeconds(birthDate);
+              let lifeEx = this.lifeExpectancy();
+              let earthAge = Number(secondsAge/31556930.4).toFixed(6);
+              if (lifeEx <= earthAge) {
+                return ("You have already outlived your expectancy, Congratulations!");
+              } else {
+                const yearsLeft = (lifeEx - earthAge).toFixed(6);
+                const mercTimeLeft = ((lifeEx - earthAge) * 0.24);
+                const venusTimeLeft = ((lifeEx - earthAge) * 0.62);
+                const marsTimeLeft = ((lifeEx - earthAge) * 1.88);
+                const jupTimeLeft = ((lifeEx - earthAge) * 11.86);
+                return ("You have " + yearsLeft + " years left on Earth, " + mercTimeLeft + " left on Mercury, " + venusTimeLeft + " left on Venus, " + marsTimeLeft + " left on Mars, and " + jupTimeLeft + " left on Jupiter.");
+              }
+            }
+          </code>
+          <code>
+            $("form#new-contact").submit(function(event) {
+              event.preventDefault();
+
+              var inputtedFirstName = $('input#new-first-name').val();
+              var inputtedLastName = $('input#new-last-name').val();
+              var newContact = new Contact(inputtedFirstName, inputtedLastName);
+
+              $(".new-address").each(function() {
+                var inputtedStreet = $(this).find("input.new-street").val();
+                var inputtedCity = $(this).find("input.new-city").val();
+                var inputtedState = $(this).find("input.new-state").val();
+                var newAddress = new Address(inputtedStreet, inputtedCity, inputtedState);
+                newContact.addresses.push(newAddress);
+              });
+
+              $('ul#contacts').append("<li><span class='contact'>" + newContact.fullName() + "</span></li>");
+
+              $(".contact").last().click(function() {
+                $("#show-contact").show();
+                $("#show-contact h2").text(newContact.fullName());
+                $(".first-name").text(newContact.firstName);
+                $(".last-name").text(newContact.lastName);
+                $("ul#addresses").text("");
+                newContact.addresses.forEach(function(address) {
+                  $("ul#addresses").append("<li>" + address.fullAddress() + "</li>");
+                });
+              });
+
+              resetFields();
+
+            });
+          </code>
+          <code>
+            $(document).ready(function(){
+              $('#ADD').click(function(){
+                numOfItems++;
+                $('#QTY').text(numOfItems.toString());
+                items.push($('#item').val());
+                $("#item").val("");
+                //debugger;
+              });
+              $('#BUILD').submit(function(event){
+                items.sort();
+                items.forEach(function(item){
+                  $('#SCREEN-2 ul').append("<li>"+item.toUpperCase()+"</li>");
+                  $('#SCREEN-1').toggle();
+                  $('#SCREEN-2').toggle();
+                });
+                event.preventDefault();
+              });
+
+            });
+          </code>
       </section>
     </main>
     <br>
